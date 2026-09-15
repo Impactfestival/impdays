@@ -1,0 +1,117 @@
+<header class="site-header">
+    <a href="/" class="logo" aria-label="Impact Days">
+            <!-- <span>IMPACT</span>
+            <span>DAYS</span> -->
+
+            <img
+                        src="indhold/logo/IDBW.webp"
+                        alt="Impact Days logo"
+                    >
+    </a>
+
+        <nav class="main-nav" id="mainNav">
+            <a href="#about">ABOUT</a>
+            <a href="/program">FULL PROGRAM</a>
+            <a href="#practical">PRACTICAL</a>
+            <a href="#tickets">TICKETS</a>
+        </nav>
+
+        <!-- <a href="/program" class="text-button"></a> -->
+
+        <div class="header-actions">
+            <img
+                        src="indhold/some/search.webp"
+                        alt="search icon"
+                    >
+
+        </div>
+</header>
+
+        <style>
+header {
+    width: 100%;
+    height: 74px;
+
+    padding: 12px var(--page-padding);
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    position: relative;
+    z-index: 100;
+}
+
+
+/* Logo */
+
+.logo {
+    display: flex;
+    flex-direction: column;
+
+    width: 50px;
+
+    font-size: 20px;
+    line-height: 0.78;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+
+    margin-top: 3px;
+}
+
+.logo span:first-child {
+    color: var(--red);
+}
+
+.logo span:last-child {
+    color: var(--dark-blue);
+
+    padding-left: 9px;
+}
+
+
+/* Navigation */
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+
+    margin-top: 7px;
+    
+    font-family: "Noto Sans Normal";
+}
+
+.main-nav a {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+
+    transition: opacity 0.2s ease;
+
+    
+}
+
+.main-nav a:hover {
+    opacity: 0.45;
+}
+
+
+/* Header actions */
+
+.header-actions {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.header-actions img {
+    width: 20px;
+    height: 20px;
+
+    object-fit: contain;
+}
+
+    </style>
+</header>
+

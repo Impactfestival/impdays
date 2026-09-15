@@ -1,0 +1,657 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '../css/main.css'
+import heroVideo from '../../indhold/herovideo.mp4';
+
+---
+
+<Layout>
+	<main>
+	
+
+		     <!-- ================= HERO ================= -->
+
+        <section class="hero" id="about">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    11-12 SEP 2026 / COPENHAGEN
+                </p>
+
+                <h1 class="hero-title">
+                    <span>FULL</span>
+                    <span>PROGRAM</span>
+                </h1>
+
+                <p class="hero-intro">
+                    Explore the full program here, find your favorites, and make the most of IMPACT DAYS.
+                </p>
+
+               
+
+                <div class="hero-buttons">
+                    <button type="button" class="button button-dark date-button active" data-day="friday">
+                        FRIDAY 11 SEP
+                    </button>
+
+                    <button type="button" class="text-button date-button" data-day="saturday">
+                        SATURDAY 12 SEP
+                    </button>
+                </div>
+
+                
+
+            </div>
+
+
+            <div class="hero-image-wrapper">
+
+                <div class="hero-image">
+                    <video
+                        class="hero-video"
+                        autoplay
+                        muted
+                        loop
+                        playsinline
+                        aria-label="People attending Impact Days"
+                    >
+                        <source src={heroVideo} type="video/mp4">
+                        Din browser understøtter ikke videotagget.
+                    </video>
+
+                    <div class="hero-image-overlay"></div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="program" id="program">
+
+    <!-- ALL -->
+    <div class="program-item">
+        <button class="program-header">
+            <span>ALL</span>
+            <span class="icon">+</span>
+        </button>
+
+        <div class="program-content">
+            <p>All events</p>
+        </div>
+    </div>
+
+    <!-- MUSIC -->
+   <div class="program-item">
+        <button class="program-header">
+            <span>MUSIC</span>
+            <span class="icon">+</span>
+        </button>
+
+        <div class="program-content">
+            <h2>Friday</h2>
+            <div class="event">
+                <span class="time" data-friday="19:00" data-saturday="19:00">19:00</span>
+                <span class="event-name" data-friday="ALBA AKVAMA (DA)" data-saturday="CREATIVE CITIES (EN)">ALBA AKVAMA (DA)</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="21:00" data-saturday="21:00">21:00</span>
+                <span class="event-name" data-friday="A GOOD YEAR" data-saturday="DESIGNING FOR CHANGE (EN)">A GOOD YEAR</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="23:00" data-saturday="23:00">23:00</span>
+                <span class="event-name" data-friday="CLARISSA CONNELLY" data-saturday="THE POWER OF COMMUNITY (DA)">CLARISSA CONNELLY</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="01:00" data-saturday="01:00">01:00</span>
+                <span class="event-name" data-friday="SPLEEN UNITED" data-saturday="MUSIC AS ACTIVISM (EN)">SPLEEN UNITED</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="02:00" data-saturday="02:00">02:00</span>
+                <span class="event-name" data-friday="FRUIT-TELLE" data-saturday="FOOD, CULTURE &amp; FUTURE (EN)">FRUIT-TELLE</span>
+            </div>
+<h2>Saturday</h2>
+            <div class="event">
+                <span class="time" data-saturday="19:00" data-saturday="19:00">19:00</span>
+                <span class="event-name" data-friday="HALOPLUS+" data-saturday="FOOD, CULTURE &amp; FUTURE (EN)">HALOPLUS+</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-saturday="21:00" data-saturday="21:00">21:00</span>
+                <span class="event-name" data-friday="MIAW" data-saturday="FOOD, CULTURE &amp; FUTURE (EN)">MIAW</span>
+            </div>
+
+             <div class="event">
+                <span class="time" data-saturday="22:00" data-saturday="22:00">22:00</span>
+                <span class="event-name" data-friday="RADIO PANINI" data-saturday="FOOD, CULTURE &amp; FUTURE (EN)">RADIO PANINI</span>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ART -->
+    <div class="program-item">
+        <button class="program-header">
+            <span>ART</span>
+            <span class="icon">+</span>
+        </button>
+
+        <div class="program-content">
+            <p>Art events</p>
+            
+        </div>
+
+        
+    </div>
+
+    <!-- WORKSHOPS -->
+    <div class="program-item">
+        <button class="program-header">
+            <span>WORKSHOPS</span>
+            <span class="icon">+</span>
+        </button>
+
+        <div class="program-content">
+            <h2>Friday</h2>
+            <div class="event">
+                <span class="time" data-friday="15:00-17:00" data-saturday="15:00-17:00">15:00-17:00</span>
+                <span class="event-name" data-friday="MAKE YOUR OWN UPCYCLED CHAIR" data-saturday="CREATIVE CITIES (EN)">MAKE YOUR OWN UPCYCLED CHAIR</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="15:00-20:00" data-saturday="15:00-20:00">15:00-20:00</span>
+                <span class="event-name" data-friday="THE HEART MAP & THE HEART QUIZ" data-saturday="DESIGNING FOR CHANGE (EN)">THE HEART MAP & THE HEART QUIZ</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="15:00-18:00" data-saturday="15:00-18:00">15:00-18:00</span>
+                <span class="event-name" data-friday="CLOTHING SWAP & UPCYCLING SPACE" data-saturday="THE POWER OF COMMUNITY (DA)">CLOTHING SWAP & UPCYCLING SPACE </span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="01:00" data-saturday="01:00">01:00</span>
+                <span class="event-name" data-friday="SPLEEN UNITED" data-saturday="MUSIC AS ACTIVISM (EN)">SPLEEN UNITED</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="02:00" data-saturday="02:00">02:00</span>
+                <span class="event-name" data-friday="FRUIT-TELLE" data-saturday="FOOD, CULTURE &amp; FUTURE (EN)">FRUIT-TELLE</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="15:00-22:00" data-saturday="15:00-22:00">15:00-22:00</span>
+                <span class="event-name" data-friday="FLOWER WORKSHOP" data-saturday="THE POWER OF COMMUNITY (DA)">FLOWER WORKSHOP</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="18:00-19:15" data-saturday="18:00-19:15">18:00-19:15</span>
+                <span class="event-name" data-friday="WRITING WORKSHOP" data-saturday="THE POWER OF COMMUNITY (DA)">WRITING WORKSHOP</span>
+            </div>
+
+<h2>Saturday</h2>
+
+            <div class="event">
+                <span class="time" data-friday="15:00-17:00" data-saturday="15:00-17:00">15:00-17:00</span>
+                <span class="event-name" data-friday="MAKE YOUR OWN UPCYCLED CHAIR" data-saturday="CREATIVE CITIES (EN)">MAKE YOUR OWN UPCYCLED CHAIR</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="15:00-20:00" data-saturday="15:00-20:00">15:00-20:00</span>
+                <span class="event-name" data-friday="THE HEART MAP & THE HEART QUIZ" data-saturday="DESIGNING FOR CHANGE (EN)">THE HEART MAP & THE HEART QUIZ</span>
+            </div>
+
+             <div class="event">
+                <span class="time" data-friday="15:00-18:00" data-saturday="15:00-18:00">15:00-18:00</span>
+                <span class="event-name" data-friday="CLOTHING SWAP & UPCYCLING SPACE CONNELLY" data-saturday="THE POWER OF COMMUNITY (DA)">CLOTHING SWAP & UPCYCLING SPACE CONNELLY</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="15:00-19:00" data-saturday="15:00-19:00">15:00-19:00</span>
+                <span class="event-name" data-friday="MARKING KNIFE WORKSHOP" data-saturday="THE POWER OF COMMUNITY (DA)">MARKING KNIFE WORKSHOP</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="15:00-22:00" data-saturday="15:00-22:00">15:00-22:00</span>
+                <span class="event-name" data-friday="FLOWER WORKSHOP" data-saturday="THE POWER OF COMMUNITY (DA)">FLOWER WORKSHOP</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="18:00-19:15" data-saturday="18:00-19:15">18:00-19:15</span>
+                <span class="event-name" data-friday="WRITING WORKSHOP" data-saturday="THE POWER OF COMMUNITY (DA)">WRITING WORKSHOP</span>
+            </div>
+    </div>
+    </div>
+
+    <!-- POETRY -->
+    <div class="program-item">
+        <button class="program-header">
+            <span>POETRY</span>
+            <span class="icon">+</span>
+        </button>
+
+        <div class="program-content">
+            <h2>Friday</h2>
+            <div class="event">
+                <span class="time" data-friday="16:00-16:30" data-saturday="16:00-17:00">16:00-16:30</span>
+                <span class="event-name" data-friday="Shadi Angelina Bazeghi" data-saturday="CREATIVE CITIES (EN)">Shadi Angelina Bazeghi</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="16:20-16:40" data-saturday="16:20-17:00">16:20-16:40</span>
+                <span class="event-name" data-friday="Christina Hesselholdt" data-saturday="CREATIVE CITIES (EN)">Christina Hesselholdt</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="16:40-17:00" data-saturday="16:40-17:00">16:40-17:00</span>
+                <span class="event-name" data-friday="Jens Kæmpe" data-saturday="CREATIVE CITIES (EN)">Jens Kæmpe</span>
+            </div>
+
+             <div class="event">
+                <span class="time" data-friday="17:30-17:50" data-saturday="17:30-17:50">17:30-17:50</span>
+                <span class="event-name" data-friday="Nath Krause " data-saturday="CREATIVE CITIES (EN)">Nath Krause </span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="17:50-18:10" data-saturday="17:50-18:10">17:50-18:10</span>
+                <span class="event-name" data-friday="Thomas Boberg " data-saturday="CREATIVE CITIES (EN)">Thomas Boberg </span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="18:10-18:30" data-saturday="18:10-18:30">18:10-18:30</span>
+                <span class="event-name" data-friday="Fie Martens Ljungmann " data-saturday="CREATIVE CITIES (EN)">Fie Martens Ljungmann</span>
+            </div>
+
+            <h2>Saturday</h2>
+
+            <div class="event">
+                <span class="time" data-friday="16:00-16:20" data-saturday="16:00-16:20">16:00-16:20</span>
+                <span class="event-name" data-friday="Amalie Langballe" data-saturday="CREATIVE CITIES (EN)">Amalie Langballe</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="16:20-16:40" data-saturday="16:20-16:40">16:20-16:40</span>
+                <span class="event-name" data-friday="René Jean Jensen" data-saturday="CREATIVE CITIES (EN)">René Jean Jensen</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="16:40-17:00" data-saturday="16:40-17:00">16:40-17:00</span>
+                <span class="event-name" data-friday="Alexandra Moltke" data-saturday="CREATIVE CITIES (EN)">Alexandra Moltke</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="17:30-17:50" data-saturday="17:30-17:50">17:30-17:50</span>
+                <span class="event-name" data-friday="Luka Holmegaard" data-saturday="CREATIVE CITIES (EN)">Luka Holmegaard</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="17:50-18:10" data-saturday="17:50-18:10">17:50-18:10</span>
+                <span class="event-name" data-friday="Adam Drewes" data-saturday="CREATIVE CITIES (EN)">Adam Drewes</span>
+            </div>
+
+            <div class="event">
+                <span class="time" data-friday="18:10-18:30" data-saturday="18:10-18:30">18:10-18:30</span>
+                <span class="event-name" data-friday="Glenn Christian" data-saturday="CREATIVE CITIES (EN)">Glenn Christian</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- BUTTON -->
+    <div class="tickets">
+        <a href="#" class="ticket-button">GET TICKETS →</a>
+    </div>
+
+</section>
+    </main>
+</Layout>
+
+<style>
+    /* =====================================================
+   HERO
+===================================================== */
+
+.hero {
+    min-height: 600px;
+
+    display: grid;
+    grid-template-columns: 57% 43%;
+
+    position: relative;
+
+   
+}
+
+
+/* Hero content */
+
+.hero-content {
+    padding: 10px var(--page-padding) 70px;
+
+    position: relative;
+    z-index: 3;
+
+     margin-top: 50px;
+}
+
+.eyebrow {
+    font-size: 12px;
+    line-height: 1.4;
+
+    letter-spacing: 1px;
+    font-weight: 500;
+
+    text-transform: uppercase;
+
+    font-family: "Noto Sans Normal";
+
+    margin-bottom: 25px;
+    margin-left: 4px;
+}
+
+
+/* Main title */
+
+.hero-title {
+    margin-top: 13px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: clamp(58px, 7.8vw, 115px);
+    line-height: 0.74;
+
+    font-weight: 900;
+    letter-spacing: -6px;
+    text-transform: uppercase;
+
+    font-family: "Inter Normal";
+}
+
+.hero-title span:first-child {
+    color: var(--red);
+}
+
+.hero-title span:last-child {
+    color: var(--dark-blue);
+
+    padding-left: 55px;
+}
+
+
+/* Intro */
+
+.hero-intro {
+    margin-top: 28px;
+    margin-bottom: 40px;
+
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+
+    font-family: "Noto Sans Normal";
+}
+
+
+/* Hero buttons */
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    margin-top: 22px;
+    
+    font-family: "Inter Normal";
+    
+}
+
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 40px;
+
+    padding: 0 13px;
+
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease,
+        color 0.2s ease;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+}
+
+.button-dark {
+    color: #fff;
+    background: var(--black);
+}
+
+.button-dark:hover {
+    background: var(--red);
+}
+
+.button-light {
+    color: var(--black);
+    background: white;
+}
+
+.text-button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+
+    border-bottom: 1px solid #111;
+
+    padding-bottom: 2px;
+}
+
+.date-button.active {
+    opacity: 1;
+}
+
+.date-button:not(.active) {
+    opacity: 0.55;
+}
+
+
+/* =====================================================
+   HERO IMAGE
+===================================================== */
+
+.hero-image-wrapper {
+    position: relative;
+
+    margin-top: -74px;
+    height: 620px;
+
+    overflow: hidden;
+
+    clip-path: polygon(
+        13% 0,
+        100% 0,
+        100% 100%,
+        27% 100%
+    );
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+}
+
+.hero-image img,
+.hero-video {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+
+    filter: saturate(0.9);
+}
+
+.hero-image-overlay {
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(0, 80, 150, 0.04),
+            rgba(0, 0, 0, 0.06)
+        );
+}
+
+.program-item {
+    border-top: 1px solid #8c9aa3;
+}
+
+.program-item:last-of-type {
+    border-bottom: 1px solid #8c9aa3;
+}
+
+/* --------------------
+   HEADER
+-------------------- */
+
+.program-header {
+    width: 100%;
+    border: none;
+    background: transparent;
+    padding: 17px 7px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 18px;
+    font-weight: 700;
+    font-family: inherit;
+
+    cursor: pointer;
+    color: #1d1d1d;
+}
+
+.program-header:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.icon {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+/* --------------------
+   CONTENT
+-------------------- */
+
+.program-content {
+    display: none;
+    padding: 15px 20px;
+    background-color: rgba(255, 255, 255, 0.18);
+
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.program-item.active .program-content {
+    display: block;
+}
+
+/* Open category */
+
+.program-item.active .program-header {
+    background-color: #b9def5;
+}
+
+
+
+/* --------------------
+   TALKS
+-------------------- */
+
+.talks {
+    padding: 22px 20px 8px;
+}
+
+.event {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+
+    min-height: 40px;
+
+    border-top: 1px solid #8c9aa3;
+}
+
+.event:last-child {
+    border-bottom: 1px solid #8c9aa3;
+}
+
+.time {
+    font-size: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-right: 1px solid #8c9aa3;
+}
+
+.event-name {
+    display: flex;
+    align-items: center;
+
+    padding-left: 36px;
+
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+
+/* --------------------
+   TICKET BUTTON
+-------------------- */
+
+.tickets {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.ticket-button {
+    display: inline-block;
+
+    background-color: #1d1d1d;
+    color: white;
+
+    padding: 9px 27px;
+
+    font-size: 14px;
+    text-decoration: none;
+
+    transition: 0.2s ease;
+}
+
+.ticket-button:hover {
+    background-color: #444;
+}
+
+</style>
+
+<script>
+	import "../script/program.js";
+</script>
